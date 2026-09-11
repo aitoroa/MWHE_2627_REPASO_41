@@ -11,31 +11,30 @@ body {
     background-color: rgb(250, 255, 210);
     font-size: 1.5rem;
     text-align: center;
-}
-
-h1 {
-    color: rgb(255, 255, 255);
-}
-
-h2 {
-    color: rgb(250, 255, 210);
-    font-size: 1.75rem;
-}
-
-#cont1 {
     height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.container {
+body > div {
     background-color: rgb(140, 15, 65);
     padding: 3rem;
     margin: 2rem;
     border-radius: 2rem;
     border: 6px solid rgb(215, 125, 11);
     box-shadow: 4px 4px 4px rgb(0, 0, 0);
-    gap: 5rem;
 }
+
+#title {
+    color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+}
+
+h2 {
+    color: rgb(250, 255, 210);
+    font-size: 1.65rem;
+}
+
+/* .container > h1,
+.container > h2 */
